@@ -1,0 +1,10 @@
+displayName: Coraza WAF
+
+type: middleware
+
+import: github.com/hatsat32/coraza-traefik
+
+summary: Coraza WAF Traefik Plugin
+
+testData:
+  include: '/etc/coraza/rules.conf'

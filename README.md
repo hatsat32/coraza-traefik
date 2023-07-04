@@ -1,2 +1,11 @@
 # coraza-traefik
-Traefik plugin for Coraza WAF
+
+Experimental traefik plugin for Coraza WAF
+
+```
+docker compose up
+```
+
+```
+yaegi test -unrestricted -unsafe
+```

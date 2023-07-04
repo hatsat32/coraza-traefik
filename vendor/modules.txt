@@ -1,0 +1,52 @@
+# github.com/corazawaf/coraza/v3 v3.0.2
+## explicit; go 1.18
+github.com/corazawaf/coraza/v3
+github.com/corazawaf/coraza/v3/collection
+github.com/corazawaf/coraza/v3/debuglog
+github.com/corazawaf/coraza/v3/experimental/plugins/macro
+github.com/corazawaf/coraza/v3/experimental/plugins/plugintypes
+github.com/corazawaf/coraza/v3/internal/actions
+github.com/corazawaf/coraza/v3/internal/auditlog
+github.com/corazawaf/coraza/v3/internal/bodyprocessors
+github.com/corazawaf/coraza/v3/internal/collections
+github.com/corazawaf/coraza/v3/internal/corazarules
+github.com/corazawaf/coraza/v3/internal/corazatypes
+github.com/corazawaf/coraza/v3/internal/corazawaf
+github.com/corazawaf/coraza/v3/internal/environment
+github.com/corazawaf/coraza/v3/internal/io
+github.com/corazawaf/coraza/v3/internal/operators
+github.com/corazawaf/coraza/v3/internal/seclang
+github.com/corazawaf/coraza/v3/internal/strings
+github.com/corazawaf/coraza/v3/internal/sync
+github.com/corazawaf/coraza/v3/internal/transformations
+github.com/corazawaf/coraza/v3/internal/url
+github.com/corazawaf/coraza/v3/internal/variables
+github.com/corazawaf/coraza/v3/types
+github.com/corazawaf/coraza/v3/types/variables
+# github.com/corazawaf/libinjection-go v0.1.2
+## explicit; go 1.17
+github.com/corazawaf/libinjection-go
+# github.com/magefile/mage v1.15.0
+## explicit; go 1.12
+github.com/magefile/mage/mg
+github.com/magefile/mage/sh
+# github.com/petar-dambovaliev/aho-corasick v0.0.0-20211021192214-5ab2d9280aa9
+## explicit; go 1.15
+github.com/petar-dambovaliev/aho-corasick
+# github.com/tidwall/gjson v1.14.4
+## explicit; go 1.12
+github.com/tidwall/gjson
+# github.com/tidwall/match v1.1.1
+## explicit; go 1.15
+github.com/tidwall/match
+# github.com/tidwall/pretty v1.2.1
+## explicit; go 1.16
+github.com/tidwall/pretty
+# golang.org/x/net v0.11.0
+## explicit; go 1.17
+golang.org/x/net/html
+golang.org/x/net/html/atom
+# rsc.io/binaryregexp v0.2.0
+## explicit; go 1.12
+rsc.io/binaryregexp
+rsc.io/binaryregexp/syntax

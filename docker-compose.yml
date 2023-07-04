@@ -1,0 +1,29 @@
+version: "3.7"
+
+services:
+  traefik:
+    image: traefik
+    ports:
+      - "8000:80"
+      - "8080:8080"
+    command:
+      - --api.dashboard=true
+      - --api.insecure=true
+      - --providers.docker=true
+      - --entrypoints.http.address=:80
+      # load waf
+      - --experimental.localPlugins.waf.moduleName=github.com/hatsat32/coraza-traefik
+    volumes:
+      - '/var/run/docker.sock:/var/run/docker.sock'
+      - '.:/plugins-local/src/github.com/hatsat32/coraza-traefik'
+    labels:
+      - traefik.enable=true
+      - traefik.http.services.traefik.loadbalancer.server.port=8080
+
+  website:
+    image: containous/whoami
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.website.rule=PathPrefix(`/website`)
+      # disabled because of "unsafe" errors!
+      # - traefik.http.routers.website.middlewares=waf@docker
